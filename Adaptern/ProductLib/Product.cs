@@ -8,14 +8,19 @@ namespace ProductLib
 {
    public class Product : IProduct
    {
-      public decimal UnitPrice {get; set;}
-      public string BarCode { get; set; }
-      public string Title { get; set; }
-
-      public string Test(string sträng)
+      public decimal UnitPrice
       {
-         return sträng.Substring(6);
+         get {return 250;}
+      }
+
+      public string BarCode
+      {
+         get { return "####"; }
+      }
+
+      public string Title
+      {
+         get { return "Product"; }
       }
    }
-
 }

@@ -8,8 +8,19 @@ namespace ProductLib
 {
    public class SomeExternalVendorProduct
    {
-      public int PricePerUnit { get; set; }
-      public string EanCode { get; set; }
-      public string Description { get; set; }
+      public int PricePerUnit
+      {
+         get { return 200; }
+      }
+
+      public string EanCode
+      {
+         get { return "###"; }
+      }
+
+      public string Description
+      {
+         get { return "ExternalProduct"; }
+      }
    }
 }
