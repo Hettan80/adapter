@@ -1,10 +1,10 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace SomeExternalVendorProductTest
+namespace ProductTest
 {
    [TestClass]
-   public class UnitTest1
+   public class TestProduct
    {
       [TestMethod]
       public void TestMethod1()
