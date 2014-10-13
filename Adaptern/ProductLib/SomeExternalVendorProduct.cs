@@ -12,12 +12,10 @@ namespace ProductLib
       {
          get { return 200; }
       }
-
       public string EanCode
       {
          get { return "###"; }
       }
-
       public string Description
       {
          get { return "ExternalProduct"; }

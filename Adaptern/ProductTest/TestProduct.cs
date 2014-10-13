@@ -35,7 +35,6 @@ namespace ProductTest
          Assert.AreEqual(expectedUnitPrice, testAdapterOutput.UnitPrice);
          Assert.AreEqual(expectedBarCode, testAdapterOutput.BarCode);
          Assert.AreEqual(expectedTitle, testAdapterOutput.Title);
-         
       }
    }
 }
