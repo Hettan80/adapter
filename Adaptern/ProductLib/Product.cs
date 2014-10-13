@@ -11,5 +11,11 @@ namespace ProductLib
       public decimal UnitPrice {get; set;}
       public string BarCode { get; set; }
       public string Title { get; set; }
+
+      public string Test(string sträng)
+      {
+         return sträng.Substring(6);
+      }
    }
+
 }

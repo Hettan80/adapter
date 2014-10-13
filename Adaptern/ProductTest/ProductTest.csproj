@@ -51,7 +51,14 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestExternalProductAdapter.cs" />
     <Compile Include="TestProduct.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProductLib\ProductLib.csproj">
+      <Project>{adb170fb-6508-4aeb-9b51-c248132a3058}</Project>
+      <Name>ProductLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

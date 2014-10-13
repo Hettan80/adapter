@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace SomeExternalVendorProductTest
 {
    [TestClass]
-   public class TestExternalProduct
+   public class TestExternalProductAdapter
    {
       [TestMethod]
       public void TestMethod1()
